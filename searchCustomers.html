@@ -1,0 +1,44 @@
+<div class="animated slideInUp" ng-controller = "searchController">
+	</br>
+  </br>
+  <ang-table conf="config"></ang-table>
+<!--<div class="container paddingMax">
+<span class="col-md-3" style="font-weight:bold">Search Particular Customer : </span>
+<span class="col-md-3">
+    <input type="text" class="form-control ng-pristine ng-valid" ng-model="searchText">
+</span>
+</div>
+<div class="container">
+  <table class="table table-inverse">
+    <thead>
+      <tr>
+      	<th>      	
+        <a  ng-click="orderByField='name'; reverseSort = !reverseSort">
+          Name <span ng-show="orderByField == 'name'"><span ng-show="!reverseSort">^</span><span ng-show="reverseSort">v</span></span>
+          </a>
+        </th>
+        <th>
+          <a  ng-click="orderByField='accountNumber'; reverseSort = !reverseSort">
+            Account Number <span ng-show="orderByField == 'accountNumber'"><span ng-show="!reverseSort">^</span><span ng-show="reverseSort">v</span></span>
+          </a>
+        </th>
+        <th>
+          <a  ng-click="orderByField='phone'; reverseSort = !reverseSort">
+          Phone<span ng-show="orderByField == 'phone'"><span ng-show="!reverseSort">^</span><span ng-show="reverseSort">v</span></span>
+          </a>
+        </th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr ng-repeat = "cust in customers | filter: searchText|orderBy:orderByField:reverseSort">
+       <td>{{ cust.name }}</td>
+       <td>{{ cust.accountNumber }}</td>
+       <td>{{ cust.phone }}</td>
+       <td><button class="btn btn-primary" ng-click="removeRow(cust.name)">Remove</button></td>
+       </tr>
+    </tbody>
+  </table>
+</div>-->
+
+</div>

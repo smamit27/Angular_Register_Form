@@ -1,0 +1,14 @@
+<div class="product" ng-controller="peopleListController">	
+	<accordion>
+    <accordion-group ng-repeat="group in records" heading="{{group.title}}" is-open="group.open">
+      <accordion-heading>{{group.title}}</accordion-heading>
+      {{group.content}}
+    </accordion-group>    
+  </accordion>
+	<!--<H1 class="headtext animated fadeInLeft">List of people </H1>
+	<ul>
+		<li class="litext animated fadeInLeft" ng-repeat="p in people">
+			{{p.name}}
+		</li>
+	</ul>-->
+</div>

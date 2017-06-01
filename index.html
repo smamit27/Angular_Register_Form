@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AngularApp">
+
+<head>
+  <meta charset="UTF-8">
+  <title>AngularJs App</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="animate.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="gui.min.css">
+
+
+  <!-- Library files -->
+  <script type="text/javascript" src="angular.min.js"></script>
+  <script type="text/javascript" src="angular-route.js"></script>
+  <script type="text/javascript" src="ui-bootstrap.js"></script>
+
+  <script type="text/javascript" src="app.js"></script>
+
+  <!-- Services-->
+  <script type="text/javascript" src="productList.js"></script>
+  <script type="text/javascript" src="customDirectives.js"></script>
+
+  <!-- Controllers -->
+  <script type="text/javascript" src="searchController.js"></script>
+  <script type="text/javascript" src="productController.js"></script>
+  <script type="text/javascript" src="loginController.js"></script>
+  <script type="text/javascript" src="registrationController.js"></script>
+  <script type="text/javascript" src="subProductController.js"></script>
+</head>
+
+<body class="bg_header">
+  <div ng-view></div>
+</body>
+
+</html>

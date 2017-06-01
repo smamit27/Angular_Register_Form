@@ -1,0 +1,15 @@
+{
+	"subProducts": [{
+		"productName": "Mobile Phones",
+		"names": ["I-Phone", "Galaxy S7", "Nexus 7", "Ipad"]
+	}, {
+		"productName": "Television",
+		"names": ["Sony Bravia", "Micromax TV", "Samsumg LCD", "LG Plasma"]
+	}, {
+		"productName": "Refrigerator",
+		"names": ["Godrej 165 liters", "Samsumg 320 liters", "LG 220 liters", "Kelvinator 165 liters"]
+	}, {
+		"productName": "Oven",
+		"names": ["LG oven", "Samsumg oven", "Panasonic oven", "IFB oven"]
+	}]
+}

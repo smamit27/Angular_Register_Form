@@ -1,0 +1,23 @@
+<div style="padding:10px;">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <input type="text" placeholder="Search" class="ng-pristine form-control ng-valid" ng-model="conf.searchText">
+    </div>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <!--<th style="cursor:move" draggable drag="handleDrag" dragData="{{hd}}" dragImage="{{dragImageId}}" droppable drop="handleDrop" ng-repeat="hd in conf.heads">-->
+        <!--  <a href="" ng-click="order(hd)">{{hd}}</a>-->
+        <!--  <span class="sortorder" ng-show="predicate === hd" ng-class="{reverse:reverse}"></span>-->
+        <!--</th>-->
+      </thead>
+      <tbody>
+        <tr ng-repeat="d in conf.heads | filter: conf.searchText| orderBy:predicate:reverse">
+          <td ng-repeat="data in conf.myData "><span>{{data[d]}}</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

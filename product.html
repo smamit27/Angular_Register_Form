@@ -1,0 +1,16 @@
+<div class="product" ng-controller="productCtrl">
+
+  <div animated fadeInRight ng-include="'view/productDescription.html'"></div>
+
+  <h2 ng-model="name" class="namelabel animated fadeInRight">{{name}}</h2>
+  <input type="button" ng-click="logout()" value="Logout" class="logout animated fadeInLeft" />
+
+  <ul>
+    <li class="litext animated fadeInLeft" ng-repeat="p in productlist" ng-click="productClicked(p.name)">
+      {{p.name}}
+    </li>
+
+  </ul>
+  <my-checkbox></my-checkbox>
+  <button class="animated slideInUp" ng-model="button" value="Subscribe" ng-disabled="!isChecked" ng-click="checkboxcliked()">Subscribe</button>
+</div>

@@ -1,0 +1,12 @@
+<div class ="product" ng-controller="subProductCtrl">	
+	<H1 class=" animated fadeInLeft">List of Subproducts </H1>
+	<input type="button" ng-click="logout()" value="Logout" class="logout animated fadeInLeft" />
+
+	<ul>
+		<li class="litext animated fadeInLeft"  ng-repeat="subProduct in subProducts.names">
+			{{subProduct}}
+		</li>
+
+	</ul>
+
+</div>

@@ -1,0 +1,22 @@
+
+<div class="animated slideInLeft login" ng-controller="loginCtrl">
+
+<div class="row headlineDiv">
+            <div class="col fontDarkColor headingFont col-sm-12 mainHeading ">Login</div>
+</div>
+	
+	<form>
+
+  		<img class = "logInImage"  src="img/yo.jpg">
+
+		<input  type="text" ng-model="username" id="username" placeholder="username" class="text-field">
+	    
+	    <input  type="password" ng-show="showPassword" ng-model="password" id="password"  class="text-field" placeholder="Password" >
+    <input type="button" ng-click="logIn()" class="button" value="{{buttonName}}"/>
+	    
+
+	</form>
+	<div class="registration" ng-click="register()">{{registername}}</div>
+</div>
+
+

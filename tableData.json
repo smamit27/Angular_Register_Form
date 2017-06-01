@@ -1,0 +1,36 @@
+ {
+   "myData": [{
+     
+     "name": "Jay",
+     "age": 27,
+     "company": "ABC",
+     "tech": "Js"
+   }, {
+     "name": "Rayn",
+     "age": 30,
+     "company": "NBC",
+     "tech": ".net"
+   }, {
+     "name": "Stan",
+     "age": 29,
+     "company": "Amazon",
+     "tech": "Java"
+   }, {
+     "name": "Stan",
+     "age": 29,
+     "company": "Amazon",
+     "tech": "Java"
+   },
+    {
+     "name": "Bob",
+     "age": 40,
+     "company": "E-bay",
+     "tech": "C"
+   },
+   {
+     "name": "Clark",
+     "age": 32,
+     "company": "Google",
+     "tech": "Python"
+   }]
+ }

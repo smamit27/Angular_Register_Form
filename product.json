@@ -1,0 +1,11 @@
+{
+	"products": [{
+		"name": "Mobile Phones"
+	}, {
+		"name": "Television"
+	}, {
+		"name": "Refrigerator"
+	}, {
+		"name": "Oven"
+	}]
+}
